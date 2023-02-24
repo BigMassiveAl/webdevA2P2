@@ -1,0 +1,87 @@
+.topnav {
+  overflow: hidden;
+  background-color: #3d3e57;
+  text-align: center;
+  padding: 30px 30px;
+}
+.topnav a {
+  float: none;
+  display: inline circle;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 28px 50px;
+  text-decoration: none;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #3d3e57;
+ }
+ 
+.active {
+  background-color: #04AA6D;
+}
+ 
+ 
+ .h1 {
+	 text-align: left;
+ }
+
+
+.img {
+	float: left;
+}
+
+		.item1 { grid-area: headerimage; }
+		.item2 { grid-area: header; }
+		.item3 { grid-area: menu; }
+		.item4 { grid-area: left; height: 1000px;}
+		.item5 { grid-area: right; height: 1000px;}
+
+
+		.grid-container {
+		  display: grid;
+		  grid-template-areas:
+			'headerimage header header header header header'
+			'menu menu menu menu menu menu'
+			'left left left right right right';
+		}
+		
+		.grid-container > div {
+		  text-align: left;
+		  padding: 20px 0;
+		}
+		
+		.image2 {
+		text-align:left;
+		display:block;
+		}
+
+
+		.image3 {
+		text-align:center;
+		display:block;
+		}
+		
+		.image4 {
+		text-align:right;
+		display:block;
+		}
+		
+		.image5 {
+		text-align:left;
+		display:block;
+		}
+		
+		.header3 {
+			text-align:center;
+		}
+		
+		.contacts1 {
+		text-align:center;
+		}
+		
+		.detailsimage {
+		text-align: center;
+		}
